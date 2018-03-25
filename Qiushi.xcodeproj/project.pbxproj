@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349D74F1E962E4D84B750D94 /* Pods_Qiushi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB7AD816A1AAE3D35690FA7 /* Pods_Qiushi.framework */; };
+		4F5CA61A28F15C727498FFE2 /* Pods_QiushiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E53BC04607217BAB27352B6 /* Pods_QiushiTests.framework */; };
+		580054BD205E2921005ABB51 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580054BC205E2921005ABB51 /* UIImage+Extension.swift */; };
+		58523EF520502BCA00D0F8AC /* QiushiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58523EF420502BCA00D0F8AC /* QiushiVc.swift */; };
+		58523EFB2054F12B00D0F8AC /* NetImageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58523EFA2054F12B00D0F8AC /* NetImageNode.swift */; };
+		58523EFD2054F48600D0F8AC /* ASNetImageNode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58523EFC2054F48600D0F8AC /* ASNetImageNode+Extension.swift */; };
+		58523EFF205501EA00D0F8AC /* QiushiCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58523EFE205501EA00D0F8AC /* QiushiCellNode.swift */; };
+		58523F0220551E9D00D0F8AC /* QiushiTabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58523F0120551E9D00D0F8AC /* QiushiTabBarVc.swift */; };
+		58ED4E24205018E60097AE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED4E23205018E60097AE11 /* AppDelegate.swift */; };
+		58ED4E2D205018E60097AE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ED4E2C205018E60097AE11 /* Assets.xcassets */; };
+		58ED4E30205018E60097AE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ED4E2E205018E60097AE11 /* LaunchScreen.storyboard */; };
+		58FE8855206402530019A4F8 /* QiushiItem.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8852206402530019A4F8 /* QiushiItem.graphql */; };
+		58FE8856206402530019A4F8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8853206402530019A4F8 /* API.swift */; };
+		58FE8857206402530019A4F8 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8854206402530019A4F8 /* schema.json */; };
+		58FE8859206533DA0019A4F8 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8858206533DA0019A4F8 /* Array+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58ED4E37205018E70097AE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ED4E18205018E60097AE11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ED4E1F205018E60097AE11;
+			remoteInfo = Qiushi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01484B628BF6290D74178D6C /* Pods-Qiushi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qiushi/Pods-Qiushi.debug.xcconfig"; sourceTree = "<group>"; };
+		0E53BC04607217BAB27352B6 /* Pods_QiushiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiushiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D39DB67A41ABAE1181BCDEB /* Pods-QiushiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiushiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiushiTests/Pods-QiushiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		580054BC205E2921005ABB51 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		58523EF420502BCA00D0F8AC /* QiushiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiushiVc.swift; sourceTree = "<group>"; };
+		58523EFA2054F12B00D0F8AC /* NetImageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetImageNode.swift; sourceTree = "<group>"; };
+		58523EFC2054F48600D0F8AC /* ASNetImageNode+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASNetImageNode+Extension.swift"; sourceTree = "<group>"; };
+		58523EFE205501EA00D0F8AC /* QiushiCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiushiCellNode.swift; sourceTree = "<group>"; };
+		58523F0120551E9D00D0F8AC /* QiushiTabBarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiushiTabBarVc.swift; sourceTree = "<group>"; };
+		58ED4E20205018E60097AE11 /* Qiushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qiushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ED4E23205018E60097AE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58ED4E2C205018E60097AE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58ED4E2F205018E60097AE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58ED4E31205018E60097AE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ED4E36205018E70097AE11 /* QiushiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiushiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FE8852206402530019A4F8 /* QiushiItem.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QiushiItem.graphql; path = Qiushi/QiushiItem.graphql; sourceTree = SOURCE_ROOT; };
+		58FE8853206402530019A4F8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = Qiushi/API.swift; sourceTree = SOURCE_ROOT; };
+		58FE8854206402530019A4F8 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = Qiushi/schema.json; sourceTree = SOURCE_ROOT; };
+		58FE8858206533DA0019A4F8 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		774EA01900CD84B3B09A1360 /* Pods-QiushiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiushiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiushiTests/Pods-QiushiTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA2A74D9DEA2BEBA974C6FD5 /* Pods-Qiushi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiushi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qiushi/Pods-Qiushi.release.xcconfig"; sourceTree = "<group>"; };
+		CAB7AD816A1AAE3D35690FA7 /* Pods_Qiushi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qiushi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58ED4E1D205018E60097AE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349D74F1E962E4D84B750D94 /* Pods_Qiushi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ED4E33205018E70097AE11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5CA61A28F15C727498FFE2 /* Pods_QiushiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA598C6596013901D66ED12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB7AD816A1AAE3D35690FA7 /* Pods_Qiushi.framework */,
+				0E53BC04607217BAB27352B6 /* Pods_QiushiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		580054AD205817A6005ABB51 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				58523EF420502BCA00D0F8AC /* QiushiVc.swift */,
+				58523EFE205501EA00D0F8AC /* QiushiCellNode.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		58523EF620502BDE00D0F8AC /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8853206402530019A4F8 /* API.swift */,
+				58FE8852206402530019A4F8 /* QiushiItem.graphql */,
+				58FE8854206402530019A4F8 /* schema.json */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		58ED4E17205018E60097AE11 = {
+			isa = PBXGroup;
+			children = (
+				58ED4E22205018E60097AE11 /* Qiushi */,
+				58ED4E21205018E60097AE11 /* Products */,
+				DA8CD0E50D2C7B0D0B9CC728 /* Pods */,
+				4EA598C6596013901D66ED12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58ED4E21205018E60097AE11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ED4E20205018E60097AE11 /* Qiushi.app */,
+				58ED4E36205018E70097AE11 /* QiushiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58ED4E22205018E60097AE11 /* Qiushi */ = {
+			isa = PBXGroup;
+			children = (
+				580054AD205817A6005ABB51 /* Main */,
+				58523EF620502BDE00D0F8AC /* GraphQL */,
+				58ED4E23205018E60097AE11 /* AppDelegate.swift */,
+				58ED4E2C205018E60097AE11 /* Assets.xcassets */,
+				58ED4E2E205018E60097AE11 /* LaunchScreen.storyboard */,
+				58ED4E31205018E60097AE11 /* Info.plist */,
+				58523EFA2054F12B00D0F8AC /* NetImageNode.swift */,
+				58523EFC2054F48600D0F8AC /* ASNetImageNode+Extension.swift */,
+				58523F0120551E9D00D0F8AC /* QiushiTabBarVc.swift */,
+				580054BC205E2921005ABB51 /* UIImage+Extension.swift */,
+				58FE8858206533DA0019A4F8 /* Array+Extension.swift */,
+			);
+			path = Qiushi;
+			sourceTree = "<group>";
+		};
+		DA8CD0E50D2C7B0D0B9CC728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01484B628BF6290D74178D6C /* Pods-Qiushi.debug.xcconfig */,
+				BA2A74D9DEA2BEBA974C6FD5 /* Pods-Qiushi.release.xcconfig */,
+				4D39DB67A41ABAE1181BCDEB /* Pods-QiushiTests.debug.xcconfig */,
+				774EA01900CD84B3B09A1360 /* Pods-QiushiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58ED4E1F205018E60097AE11 /* Qiushi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ED4E3F205018E70097AE11 /* Build configuration list for PBXNativeTarget "Qiushi" */;
+			buildPhases = (
+				99BA263789F1A05267111FBC /* [CP] Check Pods Manifest.lock */,
+				58ED4E1C205018E60097AE11 /* Sources */,
+				58ED4E1D205018E60097AE11 /* Frameworks */,
+				58ED4E1E205018E60097AE11 /* Resources */,
+				4FE18991EA37E455797CD426 /* [CP] Embed Pods Frameworks */,
+				EB8585DE1F34DF76F0A191BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qiushi;
+			productName = Qiushi;
+			productReference = 58ED4E20205018E60097AE11 /* Qiushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58ED4E35205018E70097AE11 /* QiushiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ED4E42205018E70097AE11 /* Build configuration list for PBXNativeTarget "QiushiTests" */;
+			buildPhases = (
+				0DEAAF1081C8BFDDE7519FC8 /* [CP] Check Pods Manifest.lock */,
+				58ED4E32205018E70097AE11 /* Sources */,
+				58ED4E33205018E70097AE11 /* Frameworks */,
+				58ED4E34205018E70097AE11 /* Resources */,
+				EA35AFEF7EFD7367DC0833D0 /* [CP] Embed Pods Frameworks */,
+				369F3F56D76577879262B8B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58ED4E38205018E70097AE11 /* PBXTargetDependency */,
+			);
+			name = QiushiTests;
+			productName = QiushiTests;
+			productReference = 58ED4E36205018E70097AE11 /* QiushiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58ED4E18205018E60097AE11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MarvinX;
+				TargetAttributes = {
+					58ED4E1F205018E60097AE11 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					58ED4E35205018E70097AE11 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58ED4E1F205018E60097AE11;
+					};
+				};
+			};
+			buildConfigurationList = 58ED4E1B205018E60097AE11 /* Build configuration list for PBXProject "Qiushi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58ED4E17205018E60097AE11;
+			productRefGroup = 58ED4E21205018E60097AE11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58ED4E1F205018E60097AE11 /* Qiushi */,
+				58ED4E35205018E70097AE11 /* QiushiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58ED4E1E205018E60097AE11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ED4E30205018E60097AE11 /* LaunchScreen.storyboard in Resources */,
+				58FE8857206402530019A4F8 /* schema.json in Resources */,
+				58FE8855206402530019A4F8 /* QiushiItem.graphql in Resources */,
+				58ED4E2D205018E60097AE11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ED4E34205018E70097AE11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DEAAF1081C8BFDDE7519FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiushiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369F3F56D76577879262B8B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiushiTests/Pods-QiushiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE18991EA37E455797CD426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Qiushi/Pods-Qiushi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+				"${BUILT_PRODUCTS_DIR}/GDPerformanceView-Swift/GDPerformanceView_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDPerformanceView_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qiushi/Pods-Qiushi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BA263789F1A05267111FBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qiushi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA35AFEF7EFD7367DC0833D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiushiTests/Pods-QiushiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB8585DE1F34DF76F0A191BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qiushi/Pods-Qiushi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58ED4E1C205018E60097AE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580054BD205E2921005ABB51 /* UIImage+Extension.swift in Sources */,
+				58ED4E24205018E60097AE11 /* AppDelegate.swift in Sources */,
+				58523EFF205501EA00D0F8AC /* QiushiCellNode.swift in Sources */,
+				58FE8859206533DA0019A4F8 /* Array+Extension.swift in Sources */,
+				58523EFB2054F12B00D0F8AC /* NetImageNode.swift in Sources */,
+				58523EFD2054F48600D0F8AC /* ASNetImageNode+Extension.swift in Sources */,
+				58523EF520502BCA00D0F8AC /* QiushiVc.swift in Sources */,
+				58FE8856206402530019A4F8 /* API.swift in Sources */,
+				58523F0220551E9D00D0F8AC /* QiushiTabBarVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ED4E32205018E70097AE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58ED4E38205018E70097AE11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58ED4E1F205018E60097AE11 /* Qiushi */;
+			targetProxy = 58ED4E37205018E70097AE11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58ED4E2E205018E60097AE11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ED4E2F205018E60097AE11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58ED4E3D205018E70097AE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58ED4E3E205018E70097AE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58ED4E40205018E70097AE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01484B628BF6290D74178D6C /* Pods-Qiushi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3PM97N568;
+				INFOPLIST_FILE = Qiushi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvin.qiushibaike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58ED4E41205018E70097AE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2A74D9DEA2BEBA974C6FD5 /* Pods-Qiushi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3PM97N568;
+				INFOPLIST_FILE = Qiushi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvin.qiushibaike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58ED4E43205018E70097AE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D39DB67A41ABAE1181BCDEB /* Pods-QiushiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ESZJSY5R8;
+				INFOPLIST_FILE = QiushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvinshawn.QiushiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiushi.app/Qiushi";
+			};
+			name = Debug;
+		};
+		58ED4E44205018E70097AE11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774EA01900CD84B3B09A1360 /* Pods-QiushiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ESZJSY5R8;
+				INFOPLIST_FILE = QiushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvinshawn.QiushiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qiushi.app/Qiushi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58ED4E1B205018E60097AE11 /* Build configuration list for PBXProject "Qiushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ED4E3D205018E70097AE11 /* Debug */,
+				58ED4E3E205018E70097AE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ED4E3F205018E70097AE11 /* Build configuration list for PBXNativeTarget "Qiushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ED4E40205018E70097AE11 /* Debug */,
+				58ED4E41205018E70097AE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ED4E42205018E70097AE11 /* Build configuration list for PBXNativeTarget "QiushiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ED4E43205018E70097AE11 /* Debug */,
+				58ED4E44205018E70097AE11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58ED4E18205018E60097AE11 /* Project object */;
+}

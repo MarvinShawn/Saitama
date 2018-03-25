@@ -1,0 +1,23 @@
+
+fragment Qiushi on QiushiItem {
+    comments
+    likes
+    contentText
+    nickname
+    avatar
+    age
+    gender
+    contentImg
+    ratio
+}
+
+query Items($page:Int!,$pageNum:Int!,$type:Int!) {
+    items(page:$page,pageNum:$pageNum,type:$type) {
+        pageItems
+        totalPages
+        currentPage
+        rows {
+            ...Qiushi
+        }
+    }
+}
