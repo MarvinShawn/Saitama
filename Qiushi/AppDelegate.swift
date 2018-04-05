@@ -8,7 +8,7 @@
 
 import UIKit
 import Apollo
-let apollo = ApolloClient(url: URL(string: "http://119.29.165.27:8888/graphql")!)
+let apollo = ApolloClient(url: URL(string: "http://graphiql.marvinshawn.com/graphql")!)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
